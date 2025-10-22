@@ -43,3 +43,23 @@ let arr = [8, 3, 2, 7, 6, 5, 4, 1];
 let sorted = bubbleSortLogic(arr);
 console.log(sorted); // [1, 2, 3, 4, 5, 6, 7, 8]
 ```
+
+### Merge Sort
+
+Merge Sort is a **divide-and-conquer** algorithm that splits an array into halves, sorts each half recursively, and then merges the sorted halves. It guarantees a sorted array with **O(n log n)** complexity.  
+
+**Steps:**
+
+1. If the array has 0 or 1 element, it is already sorted (base case).  
+2. Split the array into two halves.  
+3. Recursively apply merge sort to the left half.  
+4. Recursively apply merge sort to the right half.  
+5. Merge the two sorted halves into a single sorted array by repeatedly comparing the first elements of each half and taking the smaller one.  
+6. Append any remaining elements after one half is exhausted.  
+
+**Example Usage:**
+
+```javascript
+let array = [4, 3, 2, 1, 6, 7];
+let result = mergeSort(array);
+console.log(result); // [1, 2, 3, 4, 6, 7]
