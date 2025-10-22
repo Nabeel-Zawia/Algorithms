@@ -31,5 +31,6 @@ function merge(left,right){
 }
 
 let array = [4,3,2,1,6,7]
-result = mergeSort(array)
+let result = mergeSort(array)
 console.log(result)
+
