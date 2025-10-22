@@ -5,7 +5,6 @@ Currently, **Bubble Sort** is implemented. Additional algorithms will be added i
 
 - Insertion Sort
 - Selection Sort
-- Merge Sort
 - Quick Sort
 - Heap Sort
 - Breadth-First Search (BFS)
