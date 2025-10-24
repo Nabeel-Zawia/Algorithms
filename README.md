@@ -63,3 +63,25 @@ Merge Sort is a **divide-and-conquer** algorithm that splits an array into halve
 let array = [4, 3, 2, 1, 6, 7];
 let result = mergeSort(array);
 console.log(result); // [1, 2, 3, 4, 6, 7]
+```
+
+### Insertion Sort
+
+Insertion Sort is a comparison-based algorithm that builds the final sorted array gradually. It takes one element at a time and inserts it into its correct position among the already sorted part on the left. It works well for small or nearly-sorted data with a time complexity of O(n²) in the average/worst case and O(n) in the best case (already sorted).
+
+**Steps:**
+
+1. Start with the second element (index 1) — assume the first element is “sorted”.
+2. Take the current element and store it temporarily.
+3. Compare it with elements to its left in the sorted portion.
+4. While the left element is greater, shift that element one position to the right.
+5. When you find the correct position (or reach the beginning), insert the current element in that gap.
+6. Repeat for every element until the array is fully sorted.
+
+**Example Usage:**
+
+```javascript
+let array = [4,7,1,8,3,2,9]
+result = insertionSort(array)
+console.log(result) // [1,2,3,4,7,8,9]
+```
