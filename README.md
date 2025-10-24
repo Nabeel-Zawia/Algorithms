@@ -3,7 +3,6 @@
 A collection of classic algorithms implemented in JavaScript.  
 Currently, **Bubble Sort** is implemented. Additional algorithms will be added in the future:
 
-- Insertion Sort
 - Selection Sort
 - Quick Sort
 - Heap Sort
