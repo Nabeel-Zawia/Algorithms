@@ -84,3 +84,23 @@ let array = [4,7,1,8,3,2,9]
 result = insertionSort(array)
 console.log(result) // [1,2,3,4,7,8,9]
 ```
+
+
+### Selection Sort
+
+Selection Sort is a simple comparison-based algorithm that repeatedly selects the smallest element from the unsorted portion of the array and moves it to the front. It divides the array into two sections: a sorted portion on the left and an unsorted portion on the right. It works well for understanding sorting basics, with a time complexity of O(n²) in all cases.
+
+**Steps:**
+
+1. Start at index 0, assuming this is the minimum.
+2. Scan the rest of the array to find the smallest element.
+3. When you find the smallest value, swap it with the value at the current index.
+4. Now the sorted portion grows by one element (the left side).
+5. Move to the next index and repeat until the entire array is sorted.
+
+**Example Usage:**
+
+```javascript
+let array = [5,3,1,2,6,4]
+console.log(selectionSort(array)) // [1,2,3,4,5,6]
+```
